@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Upload_Recipe">
+    <!--    Context binds the xml with java class-->
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="30dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_foodImage"
+            android:src="@drawable/ic_image_not_available_foreground"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recipe Name"
+            android:layout_marginTop="10dp"
+            android:id="@+id/text_recipe_name"
+            android:textSize="19sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:hint="Directions/Ingredients"
+            android:layout_marginTop="5dp"
+            android:id="@+id/text_description"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cooking time"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/text_time"
+            android:textSize="19sp"/>
+        
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Select Image"
+            android:textSize="22sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:onClick="btnSelectImage"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Upload Recipe "
+            android:textSize="22sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:onClick="btnUploadRecipe"/>
+
+    </LinearLayout>
+
+</ScrollView>

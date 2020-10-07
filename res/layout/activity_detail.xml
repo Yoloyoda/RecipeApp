@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    tools:context=".DetailActivity">
+    <!--    Context binds the xml with java class-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ivImage2"
+        android:src="@drawable/image1"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="RecipeName"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/txtTitle"
+        />
+
+        <ScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="5sp"
+            android:padding="20dp"
+            android:text="Directions/Ingredients"
+            android:scrollbars = "vertical"
+            android:textSize="15sp" />
+        </ScrollView>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Time"
+        android:gravity="end"
+        android:textSize="19sp"
+        android:id="@+id/txtTime"
+        />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="1dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="btnUpdateRecipe"
+            android:text="Update"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="1dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="btnDeleteRecipe"
+            android:text="Delete"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</ScrollView>
