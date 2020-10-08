@@ -31,5 +31,5 @@ with update and delete buttons at the buttom</p>
 <p>Circular button is located at the right bottom corner of the main screen where new recipe can be uploaded.
 Image, recipe name, description and cooking time are avialable to register to the app. Description is a free text section 
 so write anything that's important.</p>
-&nbsp;<img align="left" src="https://github.com/Yoloyoda/RecipeApp/blob/main/Capture6.JPG" width="500" height="300"/> 
+&nbsp;<img align="left" src="https://github.com/Yoloyoda/RecipeApp/blob/main/Capture6.JPG" width="300" height="500"/> 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
