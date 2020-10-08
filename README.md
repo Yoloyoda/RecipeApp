@@ -21,3 +21,15 @@ https://youtu.be/VNeR8x61HJk
 with update and delete buttons at the buttom</p>
 &nbsp;<img align="left" src="https://github.com/Yoloyoda/RecipeApp/blob/main/Capture3.JPG" width="500" height="300"/> 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<b>Update/delete recipe</b>
+<p>Update and delete recipe buttons are located in the buttom of detail screen.</p>
+&nbsp;<img align="left" src="https://github.com/Yoloyoda/RecipeApp/blob/main/Capture5.JPG" width="500" height="300"/> 
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<b>Upload new recipe</b>
+<p>Circular button is located at the right bottom corner of the main screen where new recipe can be uploaded.
+Image, recipe name, description and cooking time are avialable to register to the app. Description is a free text section 
+so write anything that's important.</p>
+&nbsp;<img align="left" src="https://github.com/Yoloyoda/RecipeApp/blob/main/Capture6.JPG" width="500" height="300"/> 
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
