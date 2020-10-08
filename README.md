@@ -19,5 +19,5 @@ https://youtu.be/VNeR8x61HJk
 <b>View recipe detail</b>
 <p>Detail of the recipe can be accessed by clicking each card on the main screen. Name, description, cooking time and image will show
 with update and delete buttons at the buttom</p>
-&nbsp;<img align="left" src="https://github.com/Yoloyoda/RecipeApp/blob/main/Capture3.JPG" width="300" height="500"/> 
+&nbsp;<img align="left" src="https://github.com/Yoloyoda/RecipeApp/blob/main/Capture3.JPG" width="500" height="300"/> 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
